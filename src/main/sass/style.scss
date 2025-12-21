@@ -5,3 +5,13 @@ nav {
 		width: 300%;
 	}
 }
+
+form {
+	span {
+		display: flex;
+		button {
+			padding: 0.4rem 0.8rem;
+			margin: 0 .4rem 1rem 0;
+		}
+	}
+}
