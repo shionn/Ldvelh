@@ -14,6 +14,7 @@
 <meta name="mobile-web-app-capable" content="yes" />
 <title>Livre dont vous êtes le héros</title>
 <link rel="stylesheet" href="<spring:url value="/css/mvp.css"/>" />
+<link rel="stylesheet" href="<spring:url value="/css/style.css"/>" />
 <link rel="icon" href="<spring:url value="/img/favicon.ico"/>" type="image/x-icon">
 <link rel="shortcut icon" href="<spring:url value="/img/favicon.ico"/>" type="image/x-icon"> </head>
 </head>
@@ -22,8 +23,8 @@
 		<nav>
 			<a href="<spring:url value="/"/>"><img src="<spring:url value="/img/favicon.ico"/>"/></a>
 			<ul>
-				<c:forEach items="${games}" var="g">
-					<li><a href="<spring:url value="/${g.id}"/>">${g.name}</a></li>
+				<c:forEach items="${menu}" var="m">
+					<li><a href="<spring:url value="/${m.id}"/>">${m.name}</a></li>
 				</c:forEach>
 				<li><a href="<spring:url value="/admin"/>">Admin</a></li>
 			</ul>

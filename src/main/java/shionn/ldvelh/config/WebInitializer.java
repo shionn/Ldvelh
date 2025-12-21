@@ -92,7 +92,7 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 				public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
 						ModelAndView modelAndView) {
 					if (modelAndView != null) {
-						modelAndView.addObject("collections", session.getMapper(GameDao.class).listActive());
+						modelAndView.addObject("menu", session.getMapper(GameDao.class).listActive());
 					}
 				}
 			});

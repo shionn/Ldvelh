@@ -2,3 +2,5 @@
 .project
 .settings
 target/
+src/main/webapp/css/style.css
+src/main/webapp/css/style.css.map
