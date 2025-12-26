@@ -11,8 +11,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<version.spring>6.2.8</version.spring>
-		<version.servlet>5.0.0</version.servlet>
+		<version.spring>6.2.15</version.spring>
+		<version.servlet>6.1.0</version.servlet>
 		<version.jsp>3.0.0</version.jsp>
 		<version.lombock>1.18.38</version.lombock>
 	</properties>
